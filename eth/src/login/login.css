@@ -9,7 +9,7 @@
 }
 
 .login-img {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -53,6 +53,6 @@
     width: 60%;
     border-radius: 5px;
     font-size: 17.5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: 30px;
 }
