@@ -43,11 +43,7 @@ export default function RootLayout({
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                  clip-rule="evenodd"
-                ></path>
+                <path d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"></path>
               </svg>
             </button>
             <div
@@ -57,7 +53,7 @@ export default function RootLayout({
               <ul className="border-gray-100 bg-gray-50 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 mt-4 flex flex-col rounded-lg border p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0">
                 <li>
                   <a
-                    href="#"
+                    href="./"
                     className="bg-blue-700 md:bg-transparent block rounded py-2 pl-3 pr-4 text-textColorMidnight md:p-0"
                     aria-current="page"
                   >
@@ -74,26 +70,26 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    href="#"
-                    className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
-                  >
-                    Services
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
-                  >
-                    Pricing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
+                    href="/contact"
                     className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
                   >
                     Contact
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/login"
+                    className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
+                  >
+                    Login
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/signup"
+                    className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
+                  >
+                    Sign Up
                   </a>
                 </li>
               </ul>
