@@ -74,7 +74,7 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/contact"
                     className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
                   >
                     Contact
@@ -82,7 +82,7 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/login"
                     className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
                   >
                     Login
@@ -90,7 +90,7 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/signup"
                     className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
                   >
                     Sign Up
