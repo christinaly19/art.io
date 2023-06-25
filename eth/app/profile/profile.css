@@ -1,0 +1,55 @@
+.profile-container {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.profile-info {
+    height: 600px;
+    background-color: rgba(163, 89, 157, 0.301);
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.25fr;
+    padding: 100px;
+    padding-left: 150px;
+}
+
+.pf-photo {
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid rgba(112, 47, 126, 0.5);
+
+}
+
+.pf-text {
+    margin-top: 90px;
+}
+
+.pf-h1 {
+    color: rgba(94, 32, 108, 0.759);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.pf-h2 {
+    color: rgba(112, 47, 126, 0.5);
+    font-size: 40px;
+}
+
+.profile-art {
+    
+}
+
+.pf-icongroup {
+    display: flex;
+    padding-top: 30px;
+}
+
+.pf-icon {
+    margin-right: 10px;
+    transition: 0.25 ease-in;
+}
+
+.pf-icon:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
+}
