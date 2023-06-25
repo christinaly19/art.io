@@ -43,11 +43,7 @@ export default function RootLayout({
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                  clip-rule="evenodd"
-                ></path>
+                <path d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"></path>
               </svg>
             </button>
             <div
@@ -58,7 +54,7 @@ export default function RootLayout({
                 <li>
                   <a
                     href="./"
-                    className="text-textColorMidnight block py-2 pl-3 pr-4 bg-blue-700 rounded md:bg-transparent md:p-0"
+                    className="bg-blue-700 md:bg-transparent block rounded py-2 pl-3 pr-4 text-textColorMidnight md:p-0"
                     aria-current="page"
                   >
                     Home
