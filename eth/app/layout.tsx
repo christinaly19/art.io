@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
+import "./layout.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <body className={inter.className}>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <nav className="navbar-container bg-white border-gray-200 dark:bg-gray-900">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
           <a href="https://flowbite.com/" className="flex items-center">
             <img
