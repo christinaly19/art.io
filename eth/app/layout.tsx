@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-
+import "./layout.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -24,7 +24,7 @@ export default function RootLayout({
                 className="mr-3 h-8"
                 alt="Flowbite Logo"
               />
-              <span className="dark:text-white self-center whitespace-nowrap text-2xl font-semibold text-headerColorRed">
+              <span className="dark:text-white self-center whitespace-nowrap text-2xl font-semibold text-pink-600">
                 Art.io
               </span>
             </a>
@@ -63,7 +63,7 @@ export default function RootLayout({
                 <li>
                   <a
                     href="/about"
-                    className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
+                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
                     About
                   </a>
@@ -79,16 +79,13 @@ export default function RootLayout({
                 <li>
                   <a
                     href="/login"
-                    className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
+                    className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-500 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
                   >
                     Login
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="/signup"
-                    className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
-                  >
+                  <a className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-500 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0">
                     Sign Up
                   </a>
                 </li>
@@ -96,7 +93,60 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
-        {children}
+        <div className="grid grid-cols-2 min-h-screen bg-white">
+          <div className="bg-purple-100 rounded-lg p-14 m-14 h-[32rem]">
+            <div>
+              <h1 className="text-blue-900 antialiased font-bold text-3xl tracking-wider">
+                Welcome to Art.io
+              </h1>
+              <p className="pt-5 font-light">
+                Our platform is designed to empower artists like you to showcase
+                and sell your unique digital creations as non-fungible tokens
+                (NFTs).
+                <br></br>
+                <br></br>
+                <div className="grid grid-cols-3 gap-6">
+                  <div className="image-container">
+                    <img
+                      className="w-36 h-48"
+                      src="https://gibbonsgazette.org/wp-content/uploads/2022/04/43YAWLITTZJLZIQTCP2JSS4KSM.jpg"
+                      alt="NFT1"
+                    />
+                    <button className="p-2 mt-5 text-white rounded-lg bg-pink-500 text-center">
+                      See more ⇒
+                    </button>
+                  </div>
+                  <div className="image-container">
+                    <img
+                      className="w-36 h-48"
+                      src="https://zarastro.art/wp-content/uploads/2021/07/Pop-Art-Ancient-Statue-1.jpeg"
+                      alt="NFT1"
+                    />
+                    <button className="p-2 mt-5 text-white rounded-lg bg-rose-400 text-center">
+                      See more ⇒
+                    </button>
+                  </div>
+                  <div className="image-container">
+                    <img
+                      className="w-36 h-48"
+                      src="https://nftcalendar.io/storage/uploads/events/2022/2/dpusazRUqM5jrjrQ0S3L2H19fbCQKxAMefj3INDr.gif"
+                      alt="NFT1"
+                    />
+                    <button className="p-2 mt-5 text-white rounded-lg bg-orange-400 text-center">
+                      See more ⇒
+                    </button>
+                  </div>
+                </div>
+              </p>
+            </div>
+            <ul className="m-5 underline-offset-auto text-center"> hello </ul>
+          </div>
+          <div className="bg-white">
+            <div className="bg-pink-100 p-10 mt-7 h-48">
+              <div>022</div>
+            </div>
+          </div>
+        </div>
       </body>
     </html>
   );
