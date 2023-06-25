@@ -15,22 +15,22 @@ export default function RootLayout({
 }) {
   return (
     <body className={inter.className}>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <nav className="border-gray-200 bg-white dark:bg-gray-900">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-          <a href="https://flowbite.com/" className="flex items-center">
+          <a href="./" className="flex items-center">
             <img
               src="https://img.icons8.com/?size=512&id=HwN2KHJZmGGN&format=png"
               className="mr-3 h-8"
-              alt="Flowbite Logo"
+              alt="img cannot be displayed"
             />
-            <span className="dark:text-white self-center whitespace-nowrap text-2xl font-semibold text-headerColorRed">
+            <span className="text-headerColorRed self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
               Art.io
             </span>
           </a>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="text-gray-500 hover:bg-gray-100 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 ml-3 inline-flex items-center rounded-lg p-2 text-sm focus:outline-none focus:ring-2 md:hidden"
+            className="ml-3 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
@@ -46,11 +46,11 @@ export default function RootLayout({
             </svg>
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="border-gray-100 bg-gray-50 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 mt-4 flex flex-col rounded-lg border p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0">
+            <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 md:dark:bg-gray-900">
               <li>
                 <a
                   href="./"
-                  className="bg-blue-700 md:bg-transparent block rounded py-2 pl-3 pr-4 text-textColorMidnight md:p-0"
+                  className="text-textColorMidnight block rounded bg-blue-700 py-2 pl-3 pr-4 md:bg-transparent md:p-0"
                   aria-current="page"
                 >
                   Home
@@ -59,7 +59,7 @@ export default function RootLayout({
               <li>
                 <a
                   href="/about"
-                  className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
+                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 >
                   About
                 </a>
@@ -75,7 +75,7 @@ export default function RootLayout({
               <li>
                 <a
                   href="/login"
-                  className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
+                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 >
                   Login
                 </a>
@@ -83,7 +83,7 @@ export default function RootLayout({
               <li>
                 <a
                   href="/signup"
-                  className="text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block rounded py-2 pl-3 pr-4 md:border-0 md:p-0"
+                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 >
                   Sign Up
                 </a>
