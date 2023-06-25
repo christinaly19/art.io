@@ -17,7 +17,7 @@ export default function Profile() {
     return (
     <div className='profile-container'>
         <div className='profile-info'>
-            <img className='pf-photo' src="https://1fid.com/wp-content/uploads/2022/07/aesthetic-profile-picture-7-1024x1020.jpg"/>
+            <img className='pf-photo' src="https://i.postimg.cc/tJLBpRD0/ezgif-com-crop.gif"/>
             <div className='pf-text'>
                 <h1 className='pf-h1'>Elinivae</h1>
                 <h2 className='pf-h2'>elveina12353@gmail.com</h2>
