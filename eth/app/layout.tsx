@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import NFT1 from "./../public/nft1.png";
 import "./layout.css";
 const inter = Inter({ subsets: ["latin"] });
 
